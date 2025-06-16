@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee0d7d615764d8499bcfd2bb93a1073, type: 3}
+  m_Name: FlashingMushroom
+  m_EditorClassIdentifier: 
+  itemName: "\u53D1\u5149\u8611\u83C7"
+  itemImage: {fileID: -938359450, guid: fbdc6dc60d1136145a57de5244196af0, type: 3}
+  itemHeld: 1
+  itemInfo: "\u9B54\u6CD5\u68EE\u6797\u6DF1\u5904\u7684\u7A00\u6709\u8611\u83C7\uFF0C\u65E2\u662F\u4E0D\u53EF\u591A\u5F97\u7684\u9B54\u6CD5\u6750\u6599\uFF0C\u8FD8\u80FD\u7528\u4F5C\u53D1\u5149\u88C5\u9970"
+  Equip: 0

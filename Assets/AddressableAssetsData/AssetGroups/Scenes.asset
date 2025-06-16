@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Scenes
+  m_EditorClassIdentifier: 
+  m_GroupName: Scenes
+  m_GUID: fe18c34615294a841a882c014c3727b5
+  m_SerializeEntries:
+  - m_GUID: 0a62cd5e941497a408ca6ca396eee257
+    m_Address: Assets/Prefabs/Larnter.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0e667ad5c6f4daa418a7086c6033bdc6
+    m_Address: Assets/Prefabs/JuHua.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 13eacdba27c97eb4f88795a8566fe6b1
+    m_Address: Assets/Inventory/Items/Nuomi.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b07f904be9c15b4386272d60cd0685f
+    m_Address: Assets/Inventory/Inventories/Mybag.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 23d92150e30914f42820c1a0f925383d
+    m_Address: Assets/Inventory/Items/Juhua.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34d9bdec58977d742bf3ac6a85eba4a3
+    m_Address: Assets/Scenes/FormerCapital.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3675dbd8afcab3241a2d32ebf26ef745
+    m_Address: Assets/Inventory/Items/Chongyanggao.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4c36c26c1c79ef5428ed22499abb28c0
+    m_Address: Assets/Inventory/Items/FlashingMushroom.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e334d2b03dc448419dc469f7e303327
+    m_Address: Assets/Scenes/Menu.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51444b78904b8b74192e757916e17f78
+    m_Address: Assets/Prefabs/NuomiItem.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 65af3ca8b292330418b59ee6552c367b
+    m_Address: Assets/Prefabs/Zongye.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 66783f31c24e7454b81ef13656bd32d7
+    m_Address: Assets/Inventory/Items/carrotYuanxiao.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6723a202c87421c4b8c8dd7ad4e2e079
+    m_Address: Assets/Inventory/Items/Larnter.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72d7c29cd0b7b8740a5e8171cad4a22d
+    m_Address: Assets/Inventory/Items/AyaCamera.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7921919975f96fa42b8dbfd763286ccb
+    m_Address: Assets/Scenes/YokaiKemonomichi1.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c15c3a394e89534fb404430e8ba9fa7
+    m_Address: Assets/Inventory/Items/Doll.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7eefd56bc61b72d4a865a4c73998a8ca
+    m_Address: Assets/Prefabs/AiCao.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 812d7a13b8db3a640ab044b5f245fa9d
+    m_Address: Assets/Inventory/Items/Ticket.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8440d55510bc3714fae6d15a36e54458
+    m_Address: Assets/Prefabs/Slot.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8fbae9d3dcd5f494797903ce4c551686
+    m_Address: Assets/Prefabs/JianGuo.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 99c9720ab356a0642a771bea13969a05
+    m_Address: Assets/Scenes/Scene0.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a33617aa282d1043824345ec7ff3dc5
+    m_Address: Assets/Scenes/YokaiMountain.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9e559df487fac7842a17fb684e0c2c9a
+    m_Address: Assets/Prefabs/Player.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac3fcc727d223a945847e2b793df445f
+    m_Address: Assets/Inventory/Items/Yuanxiao.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc33a58060713ff4fa79a964e1312fb6
+    m_Address: Assets/Inventory/Items/ZongYe.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6a19ab17c3d3754b8e4f26692f129b0
+    m_Address: Assets/Inventory/Items/Jianguo.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c76edc7cb806c9a4b9d03bb83fd5ef7f
+    m_Address: Assets/Scenes/MahouNoMori1.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc51cc7567e4e6d40b9e6b64cc3fba0e
+    m_Address: Assets/Inventory/Items/AiCao.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6360a15836b7d04781f89ab77c51c43
+    m_Address: Assets/Inventory/Items/Letter.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d662c9559d9ab7846831b9cd3ff4db4d
+    m_Address: Assets/Scenes/YokaiKemonomichi2.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d71ba21fb2e9451449a3a7af03d9c0d9
+    m_Address: Assets/Inventory/Items/Yayushan.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0ecd97b3711e964699aa58b7686ebee
+    m_Address: Assets/Scenes/HomoPalace.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4ce9f68a966e0745a6b04664c30fffb
+    m_Address: Assets/Scenes/FormerCapital2.unity
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 7158290feb505cc4fb2763b3ef2bf88d, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 42386bb1dd3d53840ad00e1971887b29, type: 2}
+    - {fileID: 11400000, guid: 2aaef9d153533dc4da951a8ba3ed32ad, type: 2}

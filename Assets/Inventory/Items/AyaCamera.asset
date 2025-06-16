@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ee0d7d615764d8499bcfd2bb93a1073, type: 3}
+  m_Name: AyaCamera
+  m_EditorClassIdentifier: 
+  itemName: "\u6587\u6587\u7684\u76F8\u673A"
+  itemImage: {fileID: 21300000, guid: 0759124e50e4023449e0dd2a4bda1ffa, type: 3}
+  itemHeld: 1
+  itemInfo: "\u6587\u6587\u7684\u76F8\u673A\uFF0C\u867D\u7136\u9971\u7ECF\u98CE\u971C\uFF0C\u4F46\u662F\uFF0C\u5443\uFF0C\u4E5F\u6CA1\u4EC0\u4E48\u4EF7\u503C"
+  Equip: 0
