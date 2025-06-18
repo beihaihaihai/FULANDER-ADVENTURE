@@ -164,27 +164,27 @@ public class SceneLoader : MonoBehaviour, ISaveable
 
             if(currentScene.sceneType == SceneType.Location)
             {
-                //更新道具状态
-                UpdateSceneIndex();
+            //更新道具状态
+            UpdateSceneIndex();
                 Debug.Log("道具更新完毕");
 
-                var itemInSceneList = Main.GetItemInSceneList();
-                itemBoolsList = GameSaveAndLoad.instance.GetItemBoolsList();
-                for (int i = itemStartIndex; i < itemEndIndex; i++)
+            var itemInSceneList = Main.GetItemInSceneList();
+            itemBoolsList = GameSaveAndLoad.instance.GetItemBoolsList();
+            for (int i = itemStartIndex; i < itemEndIndex; i++)
+            {
+                if (!itemBoolsList[i])
                 {
-                    if (!itemBoolsList[i])
-                    {
-                        continue;
-                    }
-                    else
-                    {
-                        GameObject itemPrefab = Instantiate(itemInSceneList[i].itemPrefab, itemSet.transform);
-                        itemPrefab.transform.position = itemInSceneList[i].itemPos;
-
-                        ItemOnWorld itemOnWorld = itemPrefab.GetComponent<ItemOnWorld>();
-                        itemOnWorld.UpdateIndex(itemInSceneList[i].index);
-                    }
+                    continue;
                 }
+                else
+                {
+                    GameObject itemPrefab = Instantiate(itemInSceneList[i].itemPrefab, itemSet.transform);
+                    itemPrefab.transform.position = itemInSceneList[i].itemPos;
+
+                    ItemOnWorld itemOnWorld = itemPrefab.GetComponent<ItemOnWorld>();
+                    itemOnWorld.UpdateIndex(itemInSceneList[i].index);
+                }
+            }
                 StartCoroutine(NewSceneTips());
                 Debug.Log("开始加载剧情");
                 SceneBeginPlot(plotName);
@@ -192,6 +192,7 @@ public class SceneLoader : MonoBehaviour, ISaveable
 
             isLoading = false;
             afterSceneLoadedEvent.RaiseEvent();
+            StartCoroutine(NewSceneTips());
         };
     }
 
